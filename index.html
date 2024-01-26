@@ -31,41 +31,55 @@
     </header>
     <nav>
         <ul>
-            <li class="active"><a href="#"> </a>Home</li>
-            <li><a href="#">Chamber</a></li>
-            <li><a href="#">Site Plan</a></li>
-            <li><a href="#">Form</a></li>
+            <li class="active"><a href="#"> </a>HOME</li>
+            <li><a href="#">CHAMBER</a></li>
+            <li><a href="#">SITE PLAN</a></li>
+            <li><a href="#">FORM</a></li>
         </ul>
     </nav>
+
+    <div id="hero">
+        <div id="hero.img" width="240" height="180">
+            <picture>
+            <source srcset="week03/images/manila_philippines_temple_lds.webp">
+            <img src="week03/images/manila_philippines_temple_lds.webp" alt="picture of temple" width="960" height="384">
+        </picture></div>
+            
+    </div>
+
+
     <main>
     
-        <h1>WDD230: Web Frontend Development</h1>
-        <section>
-            <h2 class="card">Learning Activities</h2>
-            <ul>
-                <li><a href="#">Learning Activity: Week 01 Layout | Media Query | JS Pen</a></li>
-                <li><a href="#">Learning Activity: Week 02 Design | CSS Pen | Dom Manipulation</a></li>
-                <li><a href="#">Learning Activity: Week 03</a></li>
-                <li><a href="#">Learning Activity: Week 04</a></li>
-                <li><a href="#">Learning Activity: Week 05</a></li>
-                <li><a href="#">Learning Activity: Week 06</a></li>
+        <h1 id="title">WDD230: Web Frontend Development</h1>
+        <section class="card">
+            <h2>Learning Activities:</h2>
+            <ul class="learning">
+    
+                <li>Learning Activity: Week 01 :<a href="#">Layout | Media Query | JS Pen</a></li>
+                <li>Learning Activity: Week 02 :<a href="#">Design | CSS Pen | Dom</a></li>
+                <li>Learning Activity: Week 03 :<a href="#"></a></li>
+                <li>Learning Activity: Week 04 :<a href="#"></a></li>
+                <li>Learning Activity: Week 05 :<a href="#"></a></li>
+                <li>Learning Activity: Week 06 :<a href="#"></a></li>
             </ul>
 
-        
-        
-            <h2 class="date">Information</h2>
-
         </section>
-        
-        
-        
+        <section class="card">
+            <h2>Information</h2> 
+            <ul class="Information">
+                <li>Number of Visits:</li>
+                <li>Weather:</li>
+            </ul>    
+        </section>
     </main>
     <footer>
-        <p> 2024.:|:. Vivian Sidney D. Calapit .:|:. Philippines</p>
-        <p class="lastmodified">Last Modified:</p>
+        <p>&copy;<span id=""></span> Vivian Sidney D. Calapit, Philippines</p>
+        <p>Last Modified <span id="lastModified"></span></p>
     </footer>
     
-    <script src="js/script.js"></script>
+    <script src="script/getDates.js"></script>
+       
+    
    
 </body>
 </html>
